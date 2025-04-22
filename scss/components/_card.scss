@@ -1,0 +1,45 @@
+.card {
+    position: relative;
+
+    &__text {
+        color: var(--color-white);
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        max-width: 50%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        text-align: start;
+        text-transform: uppercase;
+        margin: 0;
+
+        @media screen and (min-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            font-size: 32px;
+        }
+    }
+
+    &:hover &__image {
+        opacity: 0.3;
+        transition: 2s;
+      }
+
+      &:hover &__text {
+        color: var(--color-black);
+        transition: 2s;
+      }   
+}
+
+
+
+
+
+
+
+
+
+
+
