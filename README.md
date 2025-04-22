@@ -2,8 +2,8 @@
 
 ### Screenshot
 
-![mobile](/design/mobile-design.jpg)
-**mobile design**
+![mobile](/design/mobile-design.jpg) 
+**mobile design** ||
 
 ![desktop](/design/desktop-design.jpg)
 **desktop design**
